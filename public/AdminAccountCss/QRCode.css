@@ -1,0 +1,172 @@
+.Mid{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 99vh;
+}
+.QrCodeArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: #00A3FF;
+    border-radius: 20px;
+}
+.Code{
+    margin: 10px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+.InfoAndLogoArea{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+}
+.CardLogoArea{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-image: url('/images/IDLogo.png');
+    background-size: 270px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo{
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.PatientNameArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: fit-content;
+}
+.NameLabel{
+    color: black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.PatientName{
+    margin-left: 5px;
+    color: black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.AddressArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: fit-content;
+}
+.AddressName{
+    color: black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.PatientAddress{
+    margin-left: 5px;
+    color: black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.PhoneNoArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: fit-content;
+}
+.PhoneNoLabel{
+    color: black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.PatientPhoneNo{
+    margin-left: 5px;
+    color: black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.SignatureArea{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+.SignatureLine{
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.SignatureLabel{
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+/* download btn */
+.QR-Download{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.QR-Download:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
